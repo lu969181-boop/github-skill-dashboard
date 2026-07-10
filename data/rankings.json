@@ -1,0 +1,392 @@
+{
+  "generatedAt": "2026-07-09T08:00:00.000Z",
+  "periods": [
+    {
+      "id": "daily",
+      "label": "日榜",
+      "description": "过去 24 小时新增热度"
+    },
+    {
+      "id": "monthly",
+      "label": "月榜",
+      "description": "最近 30 天持续升温"
+    },
+    {
+      "id": "all",
+      "label": "总榜",
+      "description": "长期值得收藏的基础项目"
+    }
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "label": "全部",
+      "description": "所有业务技术趋势"
+    },
+    {
+      "id": "ai",
+      "label": "AI",
+      "description": "模型、Agent、RAG、多模态、AI 应用与 LLMOps"
+    },
+    {
+      "id": "social",
+      "label": "社媒",
+      "description": "抖音、小红书、Twitter/X、B站、YouTube 等平台工具"
+    },
+    {
+      "id": "developer",
+      "label": "程序员",
+      "description": "开发框架、工程效率、测试、DevOps 与代码工具"
+    },
+    {
+      "id": "marketing",
+      "label": "营销市场",
+      "description": "增长、投放、CRM、SEO、活动和用户分析"
+    },
+    {
+      "id": "pr",
+      "label": "公关传播",
+      "description": "舆情、媒体监测、传播分析、品牌声誉与危机响应"
+    },
+    {
+      "id": "legal",
+      "label": "法务合规",
+      "description": "合同、隐私、安全合规、审计、政策和风险管理"
+    },
+    {
+      "id": "finance",
+      "label": "财务金融",
+      "description": "财务、会计、支付、投资、风控和金融数据分析"
+    },
+    {
+      "id": "design",
+      "label": "设计创意",
+      "description": "UI、视觉、图片、视频、3D、动效和创意生产"
+    },
+    {
+      "id": "ops",
+      "label": "运营管理",
+      "description": "流程自动化、项目管理、客服、监控、知识库和内部工具"
+    }
+  ],
+  "rankings": {
+    "daily": [
+      {
+        "rank": 1,
+        "fullName": "browser-use/browser-use",
+        "url": "https://github.com/browser-use/browser-use",
+        "description": "Make websites accessible for AI agents.",
+        "businessSummary": "适合把社媒后台、内容平台和内部系统变成可自动执行的浏览器 AI 工作流。",
+        "categoryIds": ["ai", "social", "developer", "ops"],
+        "language": "Python",
+        "stars": 71600,
+        "periodStars": 1840,
+        "updatedAt": "2026-07-08",
+        "topics": ["browser-automation", "ai-agents", "llm", "automation"]
+      },
+      {
+        "rank": 2,
+        "fullName": "mendableai/firecrawl",
+        "url": "https://github.com/mendableai/firecrawl",
+        "description": "Turn entire websites into LLM-ready markdown or structured data.",
+        "businessSummary": "适合营销、公关和法务团队把公开网页转成可检索、可分析、可进入 RAG 的资料。",
+        "categoryIds": ["ai", "marketing", "pr", "legal", "developer"],
+        "language": "TypeScript",
+        "stars": 43200,
+        "periodStars": 1260,
+        "updatedAt": "2026-07-08",
+        "topics": ["scraping", "crawler", "markdown", "llm"]
+      },
+      {
+        "rank": 3,
+        "fullName": "openai/openai-agents-python",
+        "url": "https://github.com/openai/openai-agents-python",
+        "description": "A lightweight framework for building multi-agent workflows.",
+        "businessSummary": "适合程序员和运营团队把选题、资料检索、审核和执行动作拆成可追踪的 AI 流程。",
+        "categoryIds": ["ai", "developer", "ops"],
+        "language": "Python",
+        "stars": 23800,
+        "periodStars": 950,
+        "updatedAt": "2026-07-07",
+        "topics": ["agents", "workflow", "llm", "python"]
+      },
+      {
+        "rank": 4,
+        "fullName": "sansan0/TrendRadar",
+        "url": "https://github.com/sansan0/TrendRadar",
+        "description": "AI-driven public opinion and trend monitor with multi-platform aggregation, RSS, and smart alerts.",
+        "businessSummary": "适合社媒、公关传播和营销团队做热点聚合、舆情监测、AI 简报和多渠道推送。",
+        "categoryIds": ["ai", "social", "pr", "marketing", "ops"],
+        "language": "Python",
+        "stars": 60390,
+        "periodStars": 880,
+        "updatedAt": "2026-07-09",
+        "topics": ["ai", "rss", "trending-topics", "wechat", "mcp"]
+      },
+      {
+        "rank": 5,
+        "fullName": "documenso/documenso",
+        "url": "https://github.com/documenso/documenso",
+        "description": "The open-source DocuSign alternative.",
+        "businessSummary": "适合法务合规、财务和运营团队做合同签署、审批留痕和业务流程数字化。",
+        "categoryIds": ["legal", "finance", "ops", "developer"],
+        "language": "TypeScript",
+        "stars": 11200,
+        "periodStars": 640,
+        "updatedAt": "2026-07-08",
+        "topics": ["esignature", "documents", "contracts", "workflow"]
+      },
+      {
+        "rank": 6,
+        "fullName": "actualbudget/actual",
+        "url": "https://github.com/actualbudget/actual",
+        "description": "A local-first personal finance app.",
+        "businessSummary": "适合财务金融场景参考预算、记账、账目同步和本地优先的数据管理体验。",
+        "categoryIds": ["finance", "ops", "developer"],
+        "language": "TypeScript",
+        "stars": 18900,
+        "periodStars": 590,
+        "updatedAt": "2026-07-08",
+        "topics": ["budget", "finance", "accounting", "local-first"]
+      },
+      {
+        "rank": 7,
+        "fullName": "excalidraw/excalidraw",
+        "url": "https://github.com/excalidraw/excalidraw",
+        "description": "Virtual whiteboard for sketching hand-drawn like diagrams.",
+        "businessSummary": "适合设计创意、程序员和运营团队快速画流程、方案、活动路径和产品草图。",
+        "categoryIds": ["design", "developer", "ops"],
+        "language": "TypeScript",
+        "stars": 93000,
+        "periodStars": 560,
+        "updatedAt": "2026-07-07",
+        "topics": ["whiteboard", "diagram", "drawing", "collaboration"]
+      },
+      {
+        "rank": 8,
+        "fullName": "n8n-io/n8n",
+        "url": "https://github.com/n8n-io/n8n",
+        "description": "Fair-code workflow automation platform.",
+        "businessSummary": "适合运营管理、营销市场、社媒和程序员把跨平台动作编排成自动化流程。",
+        "categoryIds": ["ops", "marketing", "social", "developer", "ai"],
+        "language": "TypeScript",
+        "stars": 98600,
+        "periodStars": 520,
+        "updatedAt": "2026-07-08",
+        "topics": ["automation", "workflow", "integrations", "low-code"]
+      }
+    ],
+    "monthly": [
+      {
+        "rank": 1,
+        "fullName": "langfuse/langfuse",
+        "url": "https://github.com/langfuse/langfuse",
+        "description": "Open-source LLM engineering platform for tracing, evaluation, and metrics.",
+        "businessSummary": "适合 AI 和程序员团队跟踪模型调用、评测质量、成本和生产环境表现。",
+        "categoryIds": ["ai", "developer", "ops"],
+        "language": "TypeScript",
+        "stars": 11800,
+        "periodStars": 4700,
+        "updatedAt": "2026-07-07",
+        "topics": ["llmops", "observability", "evaluation", "analytics"]
+      },
+      {
+        "rank": 2,
+        "fullName": "PostHog/posthog",
+        "url": "https://github.com/PostHog/posthog",
+        "description": "Product analytics, session recording, feature flags, A/B testing and more.",
+        "businessSummary": "适合营销市场、程序员和运营团队把产品行为、增长实验和用户漏斗统一分析。",
+        "categoryIds": ["marketing", "developer", "ops"],
+        "language": "Python",
+        "stars": 28000,
+        "periodStars": 3900,
+        "updatedAt": "2026-07-08",
+        "topics": ["analytics", "experimentation", "product-analytics", "growth"]
+      },
+      {
+        "rank": 3,
+        "fullName": "mvanhorn/last30days-skill",
+        "url": "https://github.com/mvanhorn/last30days-skill",
+        "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web.",
+        "businessSummary": "适合社媒、营销和公关团队快速汇总近 30 天热点、平台讨论和跨站趋势。",
+        "categoryIds": ["ai", "social", "marketing", "pr"],
+        "language": "Python",
+        "stars": 51032,
+        "periodStars": 3400,
+        "updatedAt": "2026-07-09",
+        "topics": ["reddit", "twitter", "youtube", "trends", "research"]
+      },
+      {
+        "rank": 4,
+        "fullName": "docusealco/docuseal",
+        "url": "https://github.com/docusealco/docuseal",
+        "description": "Open source DocuSign alternative.",
+        "businessSummary": "适合法务合规、财务金融和运营管理场景做文件签署、审批和业务留痕。",
+        "categoryIds": ["legal", "finance", "ops"],
+        "language": "Ruby",
+        "stars": 9100,
+        "periodStars": 2500,
+        "updatedAt": "2026-07-08",
+        "topics": ["documents", "signature", "contracts", "pdf"]
+      },
+      {
+        "rank": 5,
+        "fullName": "medusajs/medusa",
+        "url": "https://github.com/medusajs/medusa",
+        "description": "The world's most flexible commerce platform.",
+        "businessSummary": "适合营销市场、财务和程序员团队搭建电商、订单、支付、会员和增长系统。",
+        "categoryIds": ["marketing", "finance", "developer", "ops"],
+        "language": "TypeScript",
+        "stars": 30600,
+        "periodStars": 2300,
+        "updatedAt": "2026-07-08",
+        "topics": ["commerce", "ecommerce", "payment", "storefront"]
+      },
+      {
+        "rank": 6,
+        "fullName": "lobehub/lobe-chat",
+        "url": "https://github.com/lobehub/lobe-chat",
+        "description": "Modern-design AI chat framework and agent platform.",
+        "businessSummary": "适合 AI、设计创意和运营团队搭建带插件、知识库和多模型能力的内部助手。",
+        "categoryIds": ["ai", "design", "ops", "developer"],
+        "language": "TypeScript",
+        "stars": 64000,
+        "periodStars": 2100,
+        "updatedAt": "2026-07-08",
+        "topics": ["ai", "agent", "chatgpt", "llm", "design"]
+      },
+      {
+        "rank": 7,
+        "fullName": "penpot/penpot",
+        "url": "https://github.com/penpot/penpot",
+        "description": "Open-source design and prototyping platform.",
+        "businessSummary": "适合设计创意和程序员协作设计系统、原型、组件规范和跨团队交付。",
+        "categoryIds": ["design", "developer", "ops"],
+        "language": "Clojure",
+        "stars": 38300,
+        "periodStars": 1900,
+        "updatedAt": "2026-07-08",
+        "topics": ["design", "prototype", "ui", "collaboration"]
+      },
+      {
+        "rank": 8,
+        "fullName": "outline/outline",
+        "url": "https://github.com/outline/outline",
+        "description": "The fastest knowledge base for growing teams.",
+        "businessSummary": "适合运营管理、公关、法务和程序员团队做知识库、制度沉淀和协作资料中心。",
+        "categoryIds": ["ops", "pr", "legal", "developer"],
+        "language": "TypeScript",
+        "stars": 36000,
+        "periodStars": 1700,
+        "updatedAt": "2026-07-07",
+        "topics": ["knowledge-base", "wiki", "collaboration", "teams"]
+      }
+    ],
+    "all": [
+      {
+        "rank": 1,
+        "fullName": "huggingface/transformers",
+        "url": "https://github.com/huggingface/transformers",
+        "description": "State-of-the-art machine learning for PyTorch, TensorFlow, and JAX.",
+        "businessSummary": "适合 AI 和程序员团队构建文本、语音、视觉、多模态理解和生成能力。",
+        "categoryIds": ["ai", "developer", "design"],
+        "language": "Python",
+        "stars": 149000,
+        "periodStars": 149000,
+        "updatedAt": "2026-07-07",
+        "topics": ["machine-learning", "nlp", "transformers", "ai"]
+      },
+      {
+        "rank": 2,
+        "fullName": "n8n-io/n8n",
+        "url": "https://github.com/n8n-io/n8n",
+        "description": "Fair-code workflow automation platform.",
+        "businessSummary": "适合运营管理、营销市场、社媒和程序员把跨平台动作编排成自动化流程。",
+        "categoryIds": ["ops", "marketing", "social", "developer", "ai"],
+        "language": "TypeScript",
+        "stars": 98600,
+        "periodStars": 98600,
+        "updatedAt": "2026-07-08",
+        "topics": ["automation", "workflow", "integrations", "low-code"]
+      },
+      {
+        "rank": 3,
+        "fullName": "open-webui/open-webui",
+        "url": "https://github.com/open-webui/open-webui",
+        "description": "User-friendly AI interface for local and remote models.",
+        "businessSummary": "适合 AI、运营和程序员团队自建统一的模型入口、知识库助手和内部 AI 工作台。",
+        "categoryIds": ["ai", "ops", "developer"],
+        "language": "JavaScript",
+        "stars": 91200,
+        "periodStars": 91200,
+        "updatedAt": "2026-07-08",
+        "topics": ["llm", "chatgpt", "ollama", "webui"]
+      },
+      {
+        "rank": 4,
+        "fullName": "grafana/grafana",
+        "url": "https://github.com/grafana/grafana",
+        "description": "The open and composable observability and data visualization platform.",
+        "businessSummary": "适合程序员、运营管理、财务和公关团队搭建指标看板、监控告警和趋势分析。",
+        "categoryIds": ["developer", "ops", "finance", "pr"],
+        "language": "TypeScript",
+        "stars": 70400,
+        "periodStars": 70400,
+        "updatedAt": "2026-07-06",
+        "topics": ["dashboard", "metrics", "observability", "visualization"]
+      },
+      {
+        "rank": 5,
+        "fullName": "supabase/supabase",
+        "url": "https://github.com/supabase/supabase",
+        "description": "The open-source Firebase alternative.",
+        "businessSummary": "适合程序员和运营团队快速搭建业务数据、用户系统、内部工具和 AI 应用底座。",
+        "categoryIds": ["developer", "ops", "marketing", "ai"],
+        "language": "TypeScript",
+        "stars": 90400,
+        "periodStars": 90400,
+        "updatedAt": "2026-07-07",
+        "topics": ["database", "postgres", "auth", "realtime"]
+      },
+      {
+        "rank": 6,
+        "fullName": "twentyhq/twenty",
+        "url": "https://github.com/twentyhq/twenty",
+        "description": "Open-source CRM built with a modern stack.",
+        "businessSummary": "适合营销市场、公关传播、财务和运营管理团队做客户、线索、合作方和商机管理。",
+        "categoryIds": ["marketing", "pr", "finance", "ops", "developer"],
+        "language": "TypeScript",
+        "stars": 31800,
+        "periodStars": 31800,
+        "updatedAt": "2026-07-08",
+        "topics": ["crm", "sales", "contacts", "workflow"]
+      },
+      {
+        "rank": 7,
+        "fullName": "hoppscotch/hoppscotch",
+        "url": "https://github.com/hoppscotch/hoppscotch",
+        "description": "Open-source API development ecosystem.",
+        "businessSummary": "适合程序员测试 API、协作文档和调试接口，也适合运营内部工具联调。",
+        "categoryIds": ["developer", "ops"],
+        "language": "TypeScript",
+        "stars": 72000,
+        "periodStars": 72000,
+        "updatedAt": "2026-07-07",
+        "topics": ["api", "developer-tools", "testing", "documentation"]
+      },
+      {
+        "rank": 8,
+        "fullName": "Budibase/budibase",
+        "url": "https://github.com/Budibase/budibase",
+        "description": "Low-code platform for building business apps and workflows.",
+        "businessSummary": "适合运营管理、财务、法务和营销团队快速搭建审批、数据录入和内部流程工具。",
+        "categoryIds": ["ops", "finance", "legal", "marketing", "developer"],
+        "language": "JavaScript",
+        "stars": 24400,
+        "periodStars": 24400,
+        "updatedAt": "2026-07-07",
+        "topics": ["low-code", "internal-tools", "workflow", "automation"]
+      }
+    ]
+  }
+}

@@ -11,6 +11,7 @@ pnpm-debug.log*
 test-results/
 playwright-report/
 coverage/
+data/snapshots/
 
 # Local/private capability data. Keep your Obsidian notes and generated cards out of git.
 能力库/

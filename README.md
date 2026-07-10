@@ -1,28 +1,14 @@
-# GitHub/Skill 能力看台
+# GitHub 趋势雷达
 
-一个本地优先的“能力资产库”看台：用 Obsidian Markdown 做长期数据源，用可视化页面浏览、搜索、分类、标注优先级，并一键复制给 Codex / Claude Code 的调用提示。
+一个面向中文业务技术交叉人群的 GitHub 趋势榜单原型。它不是单纯复刻 GitHub Trending，而是把开源项目翻译成 AI、社媒、程序员、营销市场、公关传播、法务合规、财务金融、设计创意、运营管理等专业领域里的可用信号。
 
-它不是普通收藏夹。适合把你经常在 GitHub、AI agent、Claude/Codex skill 里看到的好东西，沉淀成以后能想起来、能立刻调用的能力卡。
+## v0 功能
 
-## 功能
-
-- 读取本地 Markdown 能力卡，默认来自 Obsidian vault。
-- 按任务场景搜索 GitHub 项目、AI skills、agent 工具。
-- 左侧分类：AI视频、前端、自动化、知识库、文档、Agent、待整理。
-- 右侧详情：调用提示、来源链接、Obsidian 入口。
-- 手动修改分类和优先级，直接写回 Markdown。
-- 删除噪音卡片，避免能力库变成垃圾堆。
-- GitHub 轻量沉淀脚本：只读 README 和仓库元信息，不 clone、不安装、不试运行。
-
-## 隐私设计
-
-这个仓库只包含看台程序本身，不包含你的 Obsidian 笔记、能力卡、历史对话或本地 skill 文件。
-
-- 能力卡从 `CAPABILITY_LIBRARY_DIR` 指向的本地目录读取。
-- `.env`、本地能力卡目录、vault 目录和私有 Markdown 默认被 `.gitignore` 排除。
-- 看台没有账号系统，也不会把能力卡上传到远端服务。
-- `npm run ingest -- <github-url>` 只读取公开 GitHub README 和仓库元信息。
-- 如果你 fork 或二次发布，建议不要把自己的 Obsidian vault 放进仓库目录。
+- 首页直接展示公开榜单，不做登录、收藏、投稿或复杂后台。
+- 支持 `日榜`、`月榜`、`总榜` 三种周期切换。
+- 支持 `AI`、`社媒`、`程序员`、`营销市场`、`公关传播`、`法务合规`、`财务金融`、`设计创意`、`运营管理` 等专业领域筛选。
+- 每个项目展示排名、仓库名、中文业务解读、周期新增星标、总星标、语言、更新时间、GitHub 链接和业务标签。
+- 使用静态 `data/rankings.json` 驱动页面，已内置 GitHub Actions 日更和 GitHub Pages 部署配置。
 
 ## 运行
 
@@ -37,117 +23,48 @@ npm run dev
 http://127.0.0.1:5173
 ```
 
-默认能力库目录：
+## 数据生成
 
-```text
-~/Documents/Obsidian Vault/01-AI沉淀/能力库
-```
-
-如果你的 Obsidian vault 或能力库目录不同，可以用环境变量：
+首版数据结构在 `data/rankings.json`。可以用脚本从 GitHub Search API 拉候选仓库并生成同结构数据：
 
 ```bash
-OBSIDIAN_VAULT_PATH="/path/to/Obsidian Vault" npm run dev
-CAPABILITY_LIBRARY_DIR="/path/to/capability-cards" npm run dev
-PORT=5174 npm run dev
+npm run generate:rankings -- --dry-run --limit 3
+npm run generate:rankings:dry
+npm run generate:rankings
 ```
 
-也可以复制 `.env.example` 作为自己的配置参考。
+脚本会读取 `data/snapshots/` 里的历史快照计算日榜、月榜新增星标。第一次运行没有历史快照时，新增星标会是 `0`；从第二天开始才会产生真实周期差值。
 
-## 固定对话指令
-
-沉淀 GitHub 项目：
-
-```text
-沉淀GitHub: https://github.com/owner/repo
-```
-
-Codex / Claude Code 可以在本项目里运行：
+如需更高 GitHub API 额度，可以设置：
 
 ```bash
-npm run ingest -- https://github.com/owner/repo
+GITHUB_TOKEN=... npm run generate:rankings
 ```
 
-检索能力库：
+## GitHub Pages 日更部署
 
-```text
-查能力库: <我现在想做的任务>
-```
+仓库已包含 `.github/workflows/deploy-pages.yml`：
 
-AI 助手应该搜索能力库目录下 `type: capability-card` 的 Markdown 卡片，并优先推荐 `scenarios`、`activation_phrases`、`一句话能力` 命中的项目。
+- 每天 UTC 00:15 自动生成榜单并部署。
+- 每次推送到 `main` 也会部署。
+- 可以在 GitHub Actions 手动运行 `Deploy GitHub Trend Radar`。
+- 工作流使用 GitHub Actions cache 保存 `data/snapshots/`，用于计算日榜和月榜星标差值。
 
-## 能力卡格式
+启用方式：
 
-每张能力卡都是一个 Markdown 文件，frontmatter 推荐结构如下：
+1. 把仓库推到 GitHub。
+2. 在仓库 `Settings -> Pages` 中将 Source 设为 `GitHub Actions`。
+3. 首次手动运行 `Deploy GitHub Trend Radar`。
 
-```yaml
----
-type: capability-card
-source_type: github
-title: ""
-repo: ""
-url: ""
-status: ready
-priority: low
-created: ""
-updated: ""
-domains: []
-scenarios: []
-activation_phrases: []
-agents: ["codex", "claude"]
-readiness: callable
-last_used: ""
----
-```
-
-正文推荐包含：
-
-```markdown
-# 项目名
-
-## 一句话能力
-## 什么时候想起它
-## 给 Codex/Claude 的调用提示
-## 使用线索
-## 原始信息
-## 使用记录
-```
-
-`priority` 只使用两个值：
-
-- `high`：高优先级
-- `low`：低优先级
-
-## 给 Codex / Claude Code 的同步指令
-
-你可以把下面这段给 AI coding agent：
-
-```text
-请使用同一个 GitHub/Skill 能力看台，不要另建目录。
-
-能力库目录：
-<你的 CAPABILITY_LIBRARY_DIR，或 Obsidian Vault/01-AI沉淀/能力库>
-
-看台项目：
-<这个仓库的本地路径>
-
-工作规则：
-1. 当我发“沉淀GitHub: <url>”或明确要求“放看台 / 记一下 / 沉淀一下”时，在能力库目录新建或更新一张 Markdown 调用卡。
-2. 只读取 GitHub README + 元信息；不要 clone、不要安装、不要试运行，除非我明确要求。
-3. 如果只是历史对话里出现过、还没确认会高频使用，status 用 remembered 或 inbox，readiness 用 remembered。
-4. 如果我明确说要沉淀成可调用能力，status 用 ready，readiness 用 callable。
-5. 当我说“查能力库: <任务>”，请搜索能力库，并推荐最相关的 3-5 张卡片。
-6. 同步整理两类东西：历史对话里出现过的 GitHub 仓库，以及 Codex/Claude 常用或可能高频使用的 skill。
-7. 两类都放同一个能力库目录，用 source_type 区分：github、codex-skill、claude-skill。
-8. 避免重复卡片：GitHub 用 repo 去重，skill 用 title 或 source_path 去重。
-9. 尊重看台里用户手动改过的 domains、priority 和删除结果。
-10. 写完后运行 npm run check。
-```
-
-## 开发
+## 构建检查
 
 ```bash
 npm run check
 ```
+
+## 说明
+
+旧版本地能力库和 `npm run ingest -- <github-url>` 脚本暂时保留，后续可以作为运营后台或人工修正入口使用；v0 公开站不依赖本地 Obsidian 能力卡。
 
 ## License
 

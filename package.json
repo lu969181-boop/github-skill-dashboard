@@ -1,7 +1,7 @@
 {
   "name": "github-skill-dashboard",
   "version": "0.1.0",
-  "description": "A local Obsidian-backed dashboard for remembering and reusing GitHub projects and AI agent skills.",
+  "description": "A public GitHub trend ranking site for Chinese business and technology use cases.",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
     "build": "vite build",
     "preview": "NODE_ENV=production node server.mjs",
     "ingest": "node scripts/ingest-github.mjs",
+    "generate:rankings": "node scripts/generate-rankings.mjs",
+    "generate:rankings:dry": "node scripts/generate-rankings.mjs --dry-run --limit 2",
     "check": "npm run build"
   },
   "dependencies": {
