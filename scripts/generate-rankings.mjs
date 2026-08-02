@@ -18,6 +18,7 @@ const categories = [
   { id: "all", label: "全部", description: "所有业务技术趋势" },
   { id: "ai", label: "AI", description: "模型、Agent、RAG、多模态、AI 应用与 LLMOps" },
   { id: "social", label: "社媒", description: "抖音、小红书、Twitter/X、B站、YouTube 等平台工具" },
+  { id: "local-life", label: "本地生活", description: "外卖、餐饮、到店、家政、履约、酒旅等业务工具" },
   { id: "developer", label: "程序员", description: "开发框架、工程效率、测试、DevOps 与代码工具" },
   { id: "marketing", label: "营销市场", description: "增长、投放、CRM、SEO、活动和用户分析" },
   { id: "pr", label: "公关传播", description: "舆情、媒体监测、传播分析、品牌声誉与危机响应" },
@@ -48,6 +49,16 @@ const searchPlans = [
       "topic:social-media stars:>100 pushed:>2025-01-01",
       "tiktok youtube twitter analytics stars:>100 pushed:>2025-01-01",
       "wechat instagram reddit content stars:>100 pushed:>2025-01-01"
+    ]
+  },
+  {
+    categoryId: "local-life",
+    queries: [
+      "food delivery restaurant ordering stars:>50 pushed:>2024-01-01",
+      "restaurant pos reservation menu stars:>50 pushed:>2024-01-01",
+      "hotel booking travel tourism stars:>50 pushed:>2024-01-01",
+      "logistics dispatch route optimization stars:>50 pushed:>2024-01-01",
+      "home services booking marketplace stars:>20 pushed:>2024-01-01"
     ]
   },
   {
@@ -171,7 +182,7 @@ async function searchPlanRepositories(plan, limit) {
     .slice(0, limit);
 }
 
-async function searchRepositories(query, limit) {
+async function searchRepositories(query, limit, attempt = 0) {
   const url = new URL("https://api.github.com/search/repositories");
   url.searchParams.set("q", query);
   url.searchParams.set("sort", "stars");
@@ -188,7 +199,16 @@ async function searchRepositories(query, limit) {
 
   const response = await fetch(url, { headers });
   if (!response.ok) {
-    throw new Error(`GitHub 搜索失败：${response.status} ${response.statusText}`);
+    const body = await response.text();
+    const remaining = response.headers.get("x-ratelimit-remaining");
+    const resetAt = Number(response.headers.get("x-ratelimit-reset") || 0) * 1000;
+    if (response.status === 403 && remaining === "0" && resetAt && attempt < 1) {
+      const waitMs = Math.max(1000, resetAt - Date.now() + 1500);
+      console.warn(`GitHub 搜索限流，${Math.ceil(waitMs / 1000)} 秒后重试：${query}`);
+      await sleep(waitMs);
+      return searchRepositories(query, limit, attempt + 1);
+    }
+    throw new Error(`GitHub 搜索失败：${response.status} ${response.statusText} ${body.slice(0, 240)}`);
   }
 
   const payload = await response.json();
@@ -303,6 +323,24 @@ function inferCategories(repo) {
   }
   if (
     hasAny(text, [
+      "local-life", "local life", "food-delivery", "food delivery", "food-ordering",
+      "food ordering", "takeaway", "takeout", "waimai", "restaurant", "restaurant-management",
+      "restaurant management", "restaurant-menu", "reservation-system", "reservation system",
+      "table-booking", "table booking", "pos system", "point-of-sale", "merchant",
+      "multi-vendor", "multiple-restaurant", "ubereats", "doordash", "meituan",
+      "eleme", "hotel", "hotel-booking", "hotel booking", "hotel-management",
+      "property-management-system", "booking-engine", "travel", "tourism",
+      "hospitality", "delivery-application", "courier", "last-mile", "last mile",
+      "vehicle-routing", "vehicle routing", "route optimization", "dispatch",
+      "logistics", "fleet", "home services", "housekeeping", "外卖", "餐饮",
+      "到店", "团购", "家政", "保洁", "履约", "配送", "同城配送", "即时配送",
+      "骑手", "派单", "调度", "商家端", "门店", "酒旅", "酒店", "民宿"
+    ])
+  ) {
+    matches.push("local-life");
+  }
+  if (
+    hasAny(text, [
       "developer", "framework", "sdk", "api", "cli", "devops", "testing",
       "test", "code", "lint", "static-analysis", "debug", "deploy", "kubernetes"
     ])
@@ -365,6 +403,7 @@ function summarizeBusinessValue(repo) {
   const primaryCategory = (repo.categoryIds || [])[0];
   if (primaryCategory === "ai") return "适合构建 AI 应用、模型工作流、RAG、Agent 或 LLM 评测监控。";
   if (primaryCategory === "social") return "适合社媒平台内容生产、账号运营、发布管理、数据分析或趋势追踪。";
+  if (primaryCategory === "local-life") return "适合外卖、餐饮到店、家政服务、履约配送、酒旅预订等本地生活业务。";
   if (primaryCategory === "developer") return "适合程序员提升开发、测试、部署、代码质量或工程协作效率。";
   if (primaryCategory === "marketing") return "适合营销市场团队做增长、投放、CRM、SEO、活动复盘或用户分析。";
   if (primaryCategory === "pr") return "适合公关传播团队做舆情监测、媒体分析、品牌声誉和传播复盘。";
@@ -413,6 +452,10 @@ function unique(values) {
 function daysSince(dateString) {
   if (!dateString) return Number.POSITIVE_INFINITY;
   return Math.floor((Date.now() - new Date(dateString).getTime()) / (24 * 60 * 60 * 1000));
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 function readFlag(flag) {

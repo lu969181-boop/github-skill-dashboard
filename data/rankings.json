@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T03:50:04.519Z",
+  "generatedAt": "2026-08-02T12:51:29.451Z",
   "periods": [
     {
       "id": "daily",
@@ -32,6 +32,11 @@
       "id": "social",
       "label": "社媒",
       "description": "抖音、小红书、Twitter/X、B站、YouTube 等平台工具"
+    },
+    {
+      "id": "local-life",
+      "label": "本地生活",
+      "description": "外卖、餐饮、到店、家政、履约、酒旅等业务工具"
     },
     {
       "id": "developer",
@@ -824,6 +829,121 @@
           "static-analysis",
           "static-code-analysis"
         ]
+      },
+      {
+        "rank": 25,
+        "fullName": "Qloapps/QloApps",
+        "url": "https://github.com/Qloapps/QloApps",
+        "description": "QloApps is a Free and Open-source hotel management and reservation system to take a hotel business online. QloApps offers a Property Management System (PMS), a Booking Engine, and an attractive Hotel Website.",
+        "businessSummary": "适合酒旅业务搭建酒店预订、PMS、房态管理和直营网订能力。",
+        "categoryIds": [
+          "local-life",
+          "ops"
+        ],
+        "language": "PHP",
+        "stars": 14180,
+        "updatedAt": "2026-08-02",
+        "topics": [
+          "booking-engine",
+          "booking-website",
+          "hotel-booking-app",
+          "hotel-management-system",
+          "hotel-reservation-system",
+          "property-management-system",
+          "pms"
+        ],
+        "periodStars": 0
+      },
+      {
+        "rank": 26,
+        "fullName": "tastyigniter/TastyIgniter",
+        "url": "https://github.com/tastyigniter/TastyIgniter",
+        "description": "Powerful, yet easy to use, open-source online ordering, table reservation and management system for restaurants.",
+        "businessSummary": "适合餐饮商家做在线点餐、桌位预订、菜单管理和门店经营系统。",
+        "categoryIds": [
+          "local-life",
+          "marketing",
+          "ops"
+        ],
+        "language": "PHP",
+        "stars": 3681,
+        "updatedAt": "2026-08-02",
+        "topics": [
+          "food-ordering",
+          "restaurant-management",
+          "restaurant-menu",
+          "reservation-system",
+          "table-booking"
+        ],
+        "periodStars": 0
+      },
+      {
+        "rank": 27,
+        "fullName": "VROOM-Project/vroom",
+        "url": "https://github.com/VROOM-Project/vroom",
+        "description": "Vehicle Routing Open-source Optimization Machine.",
+        "businessSummary": "适合同城配送、履约调度、骑手路径规划和车辆路线优化场景。",
+        "categoryIds": [
+          "local-life",
+          "ops"
+        ],
+        "language": "C++",
+        "stars": 1821,
+        "updatedAt": "2026-08-02",
+        "topics": [
+          "delivery",
+          "logistics",
+          "optimization",
+          "vehicle-routing-problem",
+          "vrp"
+        ],
+        "periodStars": 0
+      },
+      {
+        "rank": 28,
+        "fullName": "enatega/food-delivery-multivendor",
+        "url": "https://github.com/enatega/food-delivery-multivendor",
+        "description": "Customizable delivery management system for ordering, logistics, food, groceries, home services, courier delivery and multi-vendor marketplaces.",
+        "businessSummary": "适合外卖、商超到家、家政服务和多商户本地生活平台做业务原型。",
+        "categoryIds": [
+          "local-life",
+          "marketing",
+          "ops"
+        ],
+        "language": "JavaScript",
+        "stars": 1329,
+        "updatedAt": "2026-08-01",
+        "topics": [
+          "delivery-application",
+          "food-delivery",
+          "food-ordering",
+          "marketplace",
+          "multi-vendor",
+          "restaurant-management"
+        ],
+        "periodStars": 0
+      },
+      {
+        "rank": 29,
+        "fullName": "WanyueKJ/Food-delivery-uniapp",
+        "url": "https://github.com/WanyueKJ/Food-delivery-uniapp",
+        "description": "万岳同城外卖系统开源版，前端 uniapp + 后台 php，包含商家端、配送端、用户端、总管理后台和城市配送后台。",
+        "businessSummary": "适合国内同城外卖、商家端、配送端和城市运营后台等本地生活场景。",
+        "categoryIds": [
+          "local-life",
+          "ops"
+        ],
+        "language": "Vue",
+        "stars": 799,
+        "updatedAt": "2026-07-22",
+        "topics": [
+          "delivery",
+          "distribution",
+          "food-delivery",
+          "order",
+          "takeaway"
+        ],
+        "periodStars": 0
       }
     ],
     "monthly": [
@@ -1611,6 +1731,121 @@
           "security",
           "soc2"
         ]
+      },
+      {
+        "rank": 25,
+        "fullName": "Qloapps/QloApps",
+        "url": "https://github.com/Qloapps/QloApps",
+        "description": "QloApps is a Free and Open-source hotel management and reservation system to take a hotel business online. QloApps offers a Property Management System (PMS), a Booking Engine, and an attractive Hotel Website.",
+        "businessSummary": "适合酒旅业务搭建酒店预订、PMS、房态管理和直营网订能力。",
+        "categoryIds": [
+          "local-life",
+          "ops"
+        ],
+        "language": "PHP",
+        "stars": 14180,
+        "updatedAt": "2026-08-02",
+        "topics": [
+          "booking-engine",
+          "booking-website",
+          "hotel-booking-app",
+          "hotel-management-system",
+          "hotel-reservation-system",
+          "property-management-system",
+          "pms"
+        ],
+        "periodStars": 0
+      },
+      {
+        "rank": 26,
+        "fullName": "tastyigniter/TastyIgniter",
+        "url": "https://github.com/tastyigniter/TastyIgniter",
+        "description": "Powerful, yet easy to use, open-source online ordering, table reservation and management system for restaurants.",
+        "businessSummary": "适合餐饮商家做在线点餐、桌位预订、菜单管理和门店经营系统。",
+        "categoryIds": [
+          "local-life",
+          "marketing",
+          "ops"
+        ],
+        "language": "PHP",
+        "stars": 3681,
+        "updatedAt": "2026-08-02",
+        "topics": [
+          "food-ordering",
+          "restaurant-management",
+          "restaurant-menu",
+          "reservation-system",
+          "table-booking"
+        ],
+        "periodStars": 0
+      },
+      {
+        "rank": 27,
+        "fullName": "VROOM-Project/vroom",
+        "url": "https://github.com/VROOM-Project/vroom",
+        "description": "Vehicle Routing Open-source Optimization Machine.",
+        "businessSummary": "适合同城配送、履约调度、骑手路径规划和车辆路线优化场景。",
+        "categoryIds": [
+          "local-life",
+          "ops"
+        ],
+        "language": "C++",
+        "stars": 1821,
+        "updatedAt": "2026-08-02",
+        "topics": [
+          "delivery",
+          "logistics",
+          "optimization",
+          "vehicle-routing-problem",
+          "vrp"
+        ],
+        "periodStars": 0
+      },
+      {
+        "rank": 28,
+        "fullName": "enatega/food-delivery-multivendor",
+        "url": "https://github.com/enatega/food-delivery-multivendor",
+        "description": "Customizable delivery management system for ordering, logistics, food, groceries, home services, courier delivery and multi-vendor marketplaces.",
+        "businessSummary": "适合外卖、商超到家、家政服务和多商户本地生活平台做业务原型。",
+        "categoryIds": [
+          "local-life",
+          "marketing",
+          "ops"
+        ],
+        "language": "JavaScript",
+        "stars": 1329,
+        "updatedAt": "2026-08-01",
+        "topics": [
+          "delivery-application",
+          "food-delivery",
+          "food-ordering",
+          "marketplace",
+          "multi-vendor",
+          "restaurant-management"
+        ],
+        "periodStars": 0
+      },
+      {
+        "rank": 29,
+        "fullName": "WanyueKJ/Food-delivery-uniapp",
+        "url": "https://github.com/WanyueKJ/Food-delivery-uniapp",
+        "description": "万岳同城外卖系统开源版，前端 uniapp + 后台 php，包含商家端、配送端、用户端、总管理后台和城市配送后台。",
+        "businessSummary": "适合国内同城外卖、商家端、配送端和城市运营后台等本地生活场景。",
+        "categoryIds": [
+          "local-life",
+          "ops"
+        ],
+        "language": "Vue",
+        "stars": 799,
+        "updatedAt": "2026-07-22",
+        "topics": [
+          "delivery",
+          "distribution",
+          "food-delivery",
+          "order",
+          "takeaway"
+        ],
+        "periodStars": 0
       }
     ],
     "all": [
@@ -2203,6 +2438,30 @@
       },
       {
         "rank": 19,
+        "fullName": "Qloapps/QloApps",
+        "url": "https://github.com/Qloapps/QloApps",
+        "description": "QloApps is a Free and Open-source hotel management and reservation system to take a hotel business online. QloApps offers a Property Management System (PMS), a Booking Engine, and an attractive Hotel Website.",
+        "businessSummary": "适合酒旅业务搭建酒店预订、PMS、房态管理和直营网订能力。",
+        "categoryIds": [
+          "local-life",
+          "ops"
+        ],
+        "language": "PHP",
+        "stars": 14180,
+        "updatedAt": "2026-08-02",
+        "topics": [
+          "booking-engine",
+          "booking-website",
+          "hotel-booking-app",
+          "hotel-management-system",
+          "hotel-reservation-system",
+          "property-management-system",
+          "pms"
+        ],
+        "periodStars": 14180
+      },
+      {
+        "rank": 20,
         "fullName": "dataelement/bisheng",
         "url": "https://github.com/dataelement/bisheng",
         "description": "BISHENG is an open LLM devops platform for next generation Enterprise AI applications. Powerful and comprehensive features include: GenAI workflow, RAG, Agent, Unified model management, Evaluation, SFT, Dataset Management, Enterprise-level System Management, Observability and more.",
@@ -2240,7 +2499,7 @@
         ]
       },
       {
-        "rank": 20,
+        "rank": 21,
         "fullName": "mui/base-ui",
         "url": "https://github.com/mui/base-ui",
         "description": "Unstyled UI components for building accessible web apps and design systems. From the creators of Radix, Floating UI, and Material UI.",
@@ -2265,7 +2524,7 @@
         ]
       },
       {
-        "rank": 21,
+        "rank": 22,
         "fullName": "reviewdog/reviewdog",
         "url": "https://github.com/reviewdog/reviewdog",
         "description": "🐶 Automated code review tool integrated with any code analysis tools regardless of programming language",
@@ -2294,7 +2553,7 @@
         ]
       },
       {
-        "rank": 22,
+        "rank": 23,
         "fullName": "bentoml/BentoML",
         "url": "https://github.com/bentoml/BentoML",
         "description": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!",
@@ -2327,7 +2586,7 @@
         ]
       },
       {
-        "rank": 23,
+        "rank": 24,
         "fullName": "unovue/reka-ui",
         "url": "https://github.com/unovue/reka-ui",
         "description": "An open-source UI component library for building high-quality, accessible design systems and web apps for Vue. Previously Radix Vue",
@@ -2359,7 +2618,7 @@
         ]
       },
       {
-        "rank": 24,
+        "rank": 25,
         "fullName": "intuitem/ciso-assistant-community",
         "url": "https://github.com/intuitem/ciso-assistant-community",
         "description": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting. It supports 150+ global frameworks with automatic control mapping, including ISO 27001, NIST CSF, SOC 2, CIS, PCI DSS, NIS2, DORA, GDPR, HIPAA, CMMC, and more.",
@@ -2398,6 +2657,97 @@
           "security",
           "soc2"
         ]
+      },
+      {
+        "rank": 26,
+        "fullName": "tastyigniter/TastyIgniter",
+        "url": "https://github.com/tastyigniter/TastyIgniter",
+        "description": "Powerful, yet easy to use, open-source online ordering, table reservation and management system for restaurants.",
+        "businessSummary": "适合餐饮商家做在线点餐、桌位预订、菜单管理和门店经营系统。",
+        "categoryIds": [
+          "local-life",
+          "marketing",
+          "ops"
+        ],
+        "language": "PHP",
+        "stars": 3681,
+        "updatedAt": "2026-08-02",
+        "topics": [
+          "food-ordering",
+          "restaurant-management",
+          "restaurant-menu",
+          "reservation-system",
+          "table-booking"
+        ],
+        "periodStars": 3681
+      },
+      {
+        "rank": 27,
+        "fullName": "VROOM-Project/vroom",
+        "url": "https://github.com/VROOM-Project/vroom",
+        "description": "Vehicle Routing Open-source Optimization Machine.",
+        "businessSummary": "适合同城配送、履约调度、骑手路径规划和车辆路线优化场景。",
+        "categoryIds": [
+          "local-life",
+          "ops"
+        ],
+        "language": "C++",
+        "stars": 1821,
+        "updatedAt": "2026-08-02",
+        "topics": [
+          "delivery",
+          "logistics",
+          "optimization",
+          "vehicle-routing-problem",
+          "vrp"
+        ],
+        "periodStars": 1821
+      },
+      {
+        "rank": 28,
+        "fullName": "enatega/food-delivery-multivendor",
+        "url": "https://github.com/enatega/food-delivery-multivendor",
+        "description": "Customizable delivery management system for ordering, logistics, food, groceries, home services, courier delivery and multi-vendor marketplaces.",
+        "businessSummary": "适合外卖、商超到家、家政服务和多商户本地生活平台做业务原型。",
+        "categoryIds": [
+          "local-life",
+          "marketing",
+          "ops"
+        ],
+        "language": "JavaScript",
+        "stars": 1329,
+        "updatedAt": "2026-08-01",
+        "topics": [
+          "delivery-application",
+          "food-delivery",
+          "food-ordering",
+          "marketplace",
+          "multi-vendor",
+          "restaurant-management"
+        ],
+        "periodStars": 1329
+      },
+      {
+        "rank": 29,
+        "fullName": "WanyueKJ/Food-delivery-uniapp",
+        "url": "https://github.com/WanyueKJ/Food-delivery-uniapp",
+        "description": "万岳同城外卖系统开源版，前端 uniapp + 后台 php，包含商家端、配送端、用户端、总管理后台和城市配送后台。",
+        "businessSummary": "适合国内同城外卖、商家端、配送端和城市运营后台等本地生活场景。",
+        "categoryIds": [
+          "local-life",
+          "ops"
+        ],
+        "language": "Vue",
+        "stars": 799,
+        "updatedAt": "2026-07-22",
+        "topics": [
+          "delivery",
+          "distribution",
+          "food-delivery",
+          "order",
+          "takeaway"
+        ],
+        "periodStars": 799
       }
     ]
   }

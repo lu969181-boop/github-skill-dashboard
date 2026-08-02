@@ -260,7 +260,7 @@ a {
   transform: rotate(-10deg);
 }
 
-.sticker-legal {
+.sticker-life {
   right: 120px;
   bottom: 54px;
   background: #fff5ce;
@@ -841,7 +841,7 @@ a {
     right: 250px;
   }
 
-  .sticker-legal {
+  .sticker-life {
     right: 36px;
     bottom: 28px;
   }
@@ -869,7 +869,9 @@ a {
   }
 
   .board-heading h2 {
-    font-size: 38px;
+    font-size: 32px;
+    line-height: 1.08;
+    word-break: keep-all;
   }
 
   .board-heading p {

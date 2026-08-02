@@ -61,7 +61,7 @@ function App() {
               <span className="hero-line">SIGNALS</span>
             </h1>
             <p>
-              给中文业务技术交叉人看的 GitHub 趋势雷达。用日榜、月榜、总榜发现 AI、社媒、程序员、营销市场、法务、财务等专业领域的新工具。
+              给中文业务技术交叉人看的 GitHub 趋势雷达。用日榜、月榜、总榜发现 AI、社媒、本地生活、程序员、营销市场、法务、财务等专业领域的新工具。
             </p>
           </div>
 
@@ -69,7 +69,7 @@ function App() {
             <img src="/assets/trend-glass-word.png" alt="" />
             <span className="sticker sticker-social">SOCIAL</span>
             <span className="sticker sticker-dev">DEV</span>
-            <span className="sticker sticker-legal">LEGAL</span>
+            <span className="sticker sticker-life">LIFE</span>
             <span className="sticker sticker-ai">AI</span>
           </div>
         </div>
