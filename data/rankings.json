@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T05:40:56.112Z",
+  "generatedAt": "2026-09-30T05:29:21.180Z",
   "periods": [
     {
       "id": "daily",
@@ -78,6 +78,26 @@
     "daily": [
       {
         "rank": 1,
+        "fullName": "Shubhamsaboo/awesome-llm-apps",
+        "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+        "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+        "businessSummary": "适合构建 AI 应用、模型工作流、RAG、Agent 或 LLM 评测监控。",
+        "categoryIds": [
+          "ai"
+        ],
+        "language": "Python",
+        "stars": 140265,
+        "periodStars": 151,
+        "updatedAt": "2026-09-30",
+        "topics": [
+          "agents",
+          "llms",
+          "python",
+          "rag"
+        ]
+      },
+      {
+        "rank": 2,
         "fullName": "coreyhaines31/marketingskills",
         "url": "https://github.com/coreyhaines31/marketingskills",
         "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
@@ -88,9 +108,9 @@
           "developer"
         ],
         "language": "JavaScript",
-        "stars": 51833,
+        "stars": 51947,
         "periodStars": 114,
-        "updatedAt": "2026-09-29",
+        "updatedAt": "2026-09-30",
         "topics": [
           "claude",
           "codex",
@@ -98,66 +118,7 @@
         ]
       },
       {
-        "rank": 2,
-        "fullName": "Shubhamsaboo/awesome-llm-apps",
-        "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-        "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-        "businessSummary": "适合构建 AI 应用、模型工作流、RAG、Agent 或 LLM 评测监控。",
-        "categoryIds": [
-          "ai"
-        ],
-        "language": "Python",
-        "stars": 140114,
-        "periodStars": 101,
-        "updatedAt": "2026-09-29",
-        "topics": [
-          "agents",
-          "llms",
-          "python",
-          "rag"
-        ]
-      },
-      {
         "rank": 3,
-        "fullName": "mvanhorn/last30days-skill",
-        "url": "https://github.com/mvanhorn/last30days-skill",
-        "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-        "businessSummary": "适合社媒平台内容生产、账号运营、发布管理、数据分析或趋势追踪。",
-        "categoryIds": [
-          "social",
-          "ai",
-          "developer",
-          "pr"
-        ],
-        "language": "Python",
-        "stars": 63141,
-        "periodStars": 91,
-        "updatedAt": "2026-09-29",
-        "topics": [
-          "ai-prompts",
-          "ai-skill",
-          "bluesky",
-          "claude",
-          "claude-code",
-          "clawhub",
-          "deep-research",
-          "hackernews",
-          "instagram",
-          "openclaw",
-          "polymarket",
-          "recency",
-          "reddit",
-          "research",
-          "social-media",
-          "tiktok",
-          "trends",
-          "twitter",
-          "web-search",
-          "youtube"
-        ]
-      },
-      {
-        "rank": 4,
         "fullName": "langgenius/dify",
         "url": "https://github.com/langgenius/dify",
         "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
@@ -169,9 +130,9 @@
           "ops"
         ],
         "language": "TypeScript",
-        "stars": 157446,
-        "periodStars": 75,
-        "updatedAt": "2026-09-29",
+        "stars": 157545,
+        "periodStars": 99,
+        "updatedAt": "2026-09-30",
         "topics": [
           "agent",
           "agentic-ai",
@@ -195,7 +156,7 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 4,
         "fullName": "HBAI-Ltd/Toonflow-app",
         "url": "https://github.com/HBAI-Ltd/Toonflow-app",
         "description": "Toonflow 是开源 AI 创作平台，融合无限画布、AI Agent 与可视化工作流，支持图像生成、视频生成、智能分镜及短剧创作。支持本地部署、自由接入模型，提供跨平台桌面端，并可通过 MCP 与插件扩展创作能力。Open-source AI creative platform with an infinite canvas, AI agents and visual workflows for image generation, video generation and filmmaking, with a canvas-based approach similar to LibTV and TapNow.",
@@ -206,9 +167,9 @@
           "ops"
         ],
         "language": "TypeScript",
-        "stars": 16175,
-        "periodStars": 69,
-        "updatedAt": "2026-09-29",
+        "stars": 16255,
+        "periodStars": 80,
+        "updatedAt": "2026-09-30",
         "topics": [
           "ai",
           "ai-agents",
@@ -231,76 +192,46 @@
         ]
       },
       {
+        "rank": 5,
+        "fullName": "mvanhorn/last30days-skill",
+        "url": "https://github.com/mvanhorn/last30days-skill",
+        "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+        "businessSummary": "适合社媒平台内容生产、账号运营、发布管理、数据分析或趋势追踪。",
+        "categoryIds": [
+          "social",
+          "ai",
+          "developer",
+          "pr"
+        ],
+        "language": "Python",
+        "stars": 63215,
+        "periodStars": 74,
+        "updatedAt": "2026-09-30",
+        "topics": [
+          "ai-prompts",
+          "ai-skill",
+          "bluesky",
+          "claude",
+          "claude-code",
+          "clawhub",
+          "deep-research",
+          "hackernews",
+          "instagram",
+          "openclaw",
+          "polymarket",
+          "recency",
+          "reddit",
+          "research",
+          "social-media",
+          "tiktok",
+          "trends",
+          "twitter",
+          "web-search",
+          "youtube"
+        ]
+      },
+      {
         "rank": 6,
-        "fullName": "infiniflow/ragflow",
-        "url": "https://github.com/infiniflow/ragflow",
-        "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-        "businessSummary": "适合构建 AI 应用、模型工作流、RAG、Agent 或 LLM 评测监控。",
-        "categoryIds": [
-          "ai",
-          "marketing"
-        ],
-        "language": "Go",
-        "stars": 91455,
-        "periodStars": 63,
-        "updatedAt": "2026-09-29",
-        "topics": [
-          "agent-harness",
-          "agentic-ai",
-          "agentic-nagive",
-          "agentic-retrieval",
-          "agentic-search",
-          "ai",
-          "ai-agents",
-          "context-engine",
-          "context-engineering",
-          "context-management",
-          "harness-engineering",
-          "knowledge-compilation",
-          "rag",
-          "retrieval-augmented-generation",
-          "search-harness"
-        ]
-      },
-      {
-        "rank": 7,
-        "fullName": "langfuse/langfuse",
-        "url": "https://github.com/langfuse/langfuse",
-        "description": "🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.",
-        "businessSummary": "适合构建 AI 应用、模型工作流、RAG、Agent 或 LLM 评测监控。",
-        "categoryIds": [
-          "ai",
-          "pr",
-          "ops"
-        ],
-        "language": "TypeScript",
-        "stars": 35171,
-        "periodStars": 52,
-        "updatedAt": "2026-09-29",
-        "topics": [
-          "analytics",
-          "autogen",
-          "evaluation",
-          "langchain",
-          "large-language-models",
-          "llama-index",
-          "llm",
-          "llm-evaluation",
-          "llm-observability",
-          "llmops",
-          "monitoring",
-          "observability",
-          "open-source",
-          "openai",
-          "playground",
-          "prompt-engineering",
-          "prompt-management",
-          "self-hosted",
-          "ycombinator"
-        ]
-      },
-      {
-        "rank": 8,
         "fullName": "langchain-ai/langchain",
         "url": "https://github.com/langchain-ai/langchain",
         "description": "The agent engineering platform.",
@@ -310,9 +241,9 @@
           "developer"
         ],
         "language": "Python",
-        "stars": 147222,
-        "periodStars": 44,
-        "updatedAt": "2026-09-29",
+        "stars": 147292,
+        "periodStars": 70,
+        "updatedAt": "2026-09-30",
         "topics": [
           "agents",
           "ai",
@@ -337,6 +268,75 @@
         ]
       },
       {
+        "rank": 7,
+        "fullName": "infiniflow/ragflow",
+        "url": "https://github.com/infiniflow/ragflow",
+        "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+        "businessSummary": "适合构建 AI 应用、模型工作流、RAG、Agent 或 LLM 评测监控。",
+        "categoryIds": [
+          "ai",
+          "marketing"
+        ],
+        "language": "Go",
+        "stars": 91519,
+        "periodStars": 64,
+        "updatedAt": "2026-09-30",
+        "topics": [
+          "agent-harness",
+          "agentic-ai",
+          "agentic-nagive",
+          "agentic-retrieval",
+          "agentic-search",
+          "ai",
+          "ai-agents",
+          "context-engine",
+          "context-engineering",
+          "context-management",
+          "harness-engineering",
+          "knowledge-compilation",
+          "rag",
+          "retrieval-augmented-generation",
+          "search-harness"
+        ]
+      },
+      {
+        "rank": 8,
+        "fullName": "langfuse/langfuse",
+        "url": "https://github.com/langfuse/langfuse",
+        "description": "🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.",
+        "businessSummary": "适合构建 AI 应用、模型工作流、RAG、Agent 或 LLM 评测监控。",
+        "categoryIds": [
+          "ai",
+          "pr",
+          "ops"
+        ],
+        "language": "TypeScript",
+        "stars": 35216,
+        "periodStars": 45,
+        "updatedAt": "2026-09-30",
+        "topics": [
+          "analytics",
+          "autogen",
+          "evaluation",
+          "langchain",
+          "large-language-models",
+          "llama-index",
+          "llm",
+          "llm-evaluation",
+          "llm-observability",
+          "llmops",
+          "monitoring",
+          "observability",
+          "open-source",
+          "openai",
+          "playground",
+          "prompt-engineering",
+          "prompt-management",
+          "self-hosted",
+          "ycombinator"
+        ]
+      },
+      {
         "rank": 9,
         "fullName": "imputnet/cobalt",
         "url": "https://github.com/imputnet/cobalt",
@@ -347,9 +347,9 @@
           "design"
         ],
         "language": "Svelte",
-        "stars": 43896,
-        "periodStars": 25,
-        "updatedAt": "2026-09-29",
+        "stars": 43928,
+        "periodStars": 32,
+        "updatedAt": "2026-09-30",
         "topics": [
           "collaboration",
           "downloader",
@@ -373,6 +373,37 @@
       },
       {
         "rank": 10,
+        "fullName": "tirth8205/code-review-graph",
+        "url": "https://github.com/tirth8205/code-review-graph",
+        "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+        "businessSummary": "适合程序员提升开发、测试、部署、代码质量或工程协作效率。",
+        "categoryIds": [
+          "developer",
+          "ai",
+          "design",
+          "ops"
+        ],
+        "language": "Python",
+        "stars": 31864,
+        "periodStars": 32,
+        "updatedAt": "2026-09-30",
+        "topics": [
+          "ai-coding",
+          "claude",
+          "claude-code",
+          "code-review",
+          "graphrag",
+          "incremental",
+          "knowledge-graph",
+          "llm",
+          "mcp",
+          "python",
+          "static-analysis",
+          "tree-sitter"
+        ]
+      },
+      {
+        "rank": 11,
         "fullName": "mlflow/mlflow",
         "url": "https://github.com/mlflow/mlflow",
         "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.",
@@ -383,9 +414,9 @@
           "ops"
         ],
         "language": "Python",
-        "stars": 28173,
+        "stars": 28191,
         "periodStars": 18,
-        "updatedAt": "2026-09-29",
+        "updatedAt": "2026-09-30",
         "topics": [
           "agentops",
           "agents",
@@ -408,7 +439,7 @@
         ]
       },
       {
-        "rank": 11,
+        "rank": 12,
         "fullName": "mui/base-ui",
         "url": "https://github.com/mui/base-ui",
         "description": "Unstyled UI components for building accessible web apps and design systems. From the creators of Radix, Floating UI, and Material UI.",
@@ -418,9 +449,9 @@
           "ai"
         ],
         "language": "TypeScript",
-        "stars": 11022,
-        "periodStars": 15,
-        "updatedAt": "2026-09-29",
+        "stars": 11038,
+        "periodStars": 16,
+        "updatedAt": "2026-09-30",
         "topics": [
           "accessibility",
           "base-ui",
@@ -433,38 +464,66 @@
         ]
       },
       {
-        "rank": 12,
-        "fullName": "tirth8205/code-review-graph",
-        "url": "https://github.com/tirth8205/code-review-graph",
-        "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-        "businessSummary": "适合程序员提升开发、测试、部署、代码质量或工程协作效率。",
+        "rank": 13,
+        "fullName": "qeeqbox/social-analyzer",
+        "url": "https://github.com/qeeqbox/social-analyzer",
+        "description": "API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \\ websites",
+        "businessSummary": "适合社媒平台内容生产、账号运营、发布管理、数据分析或趋势追踪。",
         "categoryIds": [
+          "social",
           "developer",
-          "ai",
-          "design",
-          "ops"
+          "pr"
         ],
-        "language": "Python",
-        "stars": 31832,
-        "periodStars": 14,
-        "updatedAt": "2026-09-29",
+        "language": "JavaScript",
+        "stars": 24150,
+        "periodStars": 12,
+        "updatedAt": "2026-09-30",
         "topics": [
-          "ai-coding",
-          "claude",
-          "claude-code",
-          "code-review",
-          "graphrag",
-          "incremental",
-          "knowledge-graph",
-          "llm",
-          "mcp",
+          "analysis",
+          "analyzer",
+          "cli",
+          "information-gathering",
+          "javascript",
+          "nodejs",
+          "nodejs-cli",
+          "osint",
+          "pentest",
+          "pentesting",
+          "person-profile",
+          "profile",
           "python",
-          "static-analysis",
-          "tree-sitter"
+          "reconnaissance",
+          "security-tools",
+          "social-analyzer",
+          "social-media",
+          "sosint",
+          "username"
         ]
       },
       {
-        "rank": 13,
+        "rank": 14,
+        "fullName": "FuturixAI-and-Quantum-Works/Prism-Legal-OS",
+        "url": "https://github.com/FuturixAI-and-Quantum-Works/Prism-Legal-OS",
+        "description": "Open-source legal AI for contract analysis, legal research, and litigation",
+        "businessSummary": "适合法务合规场景里的合同分析、隐私合规、审计和风险管理。",
+        "categoryIds": [
+          "legal",
+          "ai"
+        ],
+        "language": "TypeScript",
+        "stars": 261,
+        "periodStars": 9,
+        "updatedAt": "2026-09-30",
+        "topics": [
+          "legal-ai",
+          "legal-assistant",
+          "legal-os",
+          "legal-research",
+          "legal-tech"
+        ]
+      },
+      {
+        "rank": 15,
         "fullName": "deepset-ai/haystack",
         "url": "https://github.com/deepset-ai/haystack",
         "description": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
@@ -476,9 +535,9 @@
           "ops"
         ],
         "language": "Python",
-        "stars": 26627,
-        "periodStars": 9,
-        "updatedAt": "2026-09-29",
+        "stars": 26632,
+        "periodStars": 5,
+        "updatedAt": "2026-09-30",
         "topics": [
           "agent-framework",
           "agentic-ai",
@@ -503,7 +562,7 @@
         ]
       },
       {
-        "rank": 14,
+        "rank": 16,
         "fullName": "NVIDIA-NeMo/Speech",
         "url": "https://github.com/NVIDIA-NeMo/Speech",
         "description": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
@@ -514,9 +573,9 @@
           "design"
         ],
         "language": "Python",
-        "stars": 18522,
-        "periodStars": 7,
-        "updatedAt": "2026-09-29",
+        "stars": 18527,
+        "periodStars": 5,
+        "updatedAt": "2026-09-30",
         "topics": [
           "asr",
           "deeplearning",
@@ -531,7 +590,7 @@
         ]
       },
       {
-        "rank": 15,
+        "rank": 17,
         "fullName": "radix-ui/primitives",
         "url": "https://github.com/radix-ui/primitives",
         "description": "Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos.",
@@ -540,8 +599,8 @@
           "design"
         ],
         "language": "TypeScript",
-        "stars": 19345,
-        "periodStars": 5,
+        "stars": 19349,
+        "periodStars": 4,
         "updatedAt": "2026-09-29",
         "topics": [
           "accessibility",
@@ -556,95 +615,30 @@
         ]
       },
       {
-        "rank": 16,
-        "fullName": "gege-circle/.github",
-        "url": "https://github.com/gege-circle/.github",
-        "description": "这里是GitHub的草场，也是戈戈圈爱好者的交流地，主要讨论动漫、游戏、科技、人文、生活等所有话题，欢迎各位小伙伴们在此讨论趣事。This is GitHub grassland, and the community place for Gege circle lovers, mainly discusses anime, games, technology, lifing and other topics. You are welcome to share interest things here. 缺氧修改器 捏脸 反光板 MySQL数据库 玉米杂草数据集 销售系统开发 疫情期间网民情绪识别比赛 996icu 预测结果导出 赖伟林刺杀小说家 购物商场 英语词汇量小程序 联级选择器Bitcoin区块链 技术面",
+        "rank": 18,
+        "fullName": "antonbabenko/terraform-skill",
+        "url": "https://github.com/antonbabenko/terraform-skill",
+        "description": "Terraform & OpenTofu Skill for AI Agents - testing, modules, CI/CD, and production patterns",
         "businessSummary": "适合程序员提升开发、测试、部署、代码质量或工程协作效率。",
         "categoryIds": [
           "developer",
-          "social"
+          "ai"
         ],
         "language": "Unknown",
-        "stars": 2029,
-        "periodStars": 5,
-        "updatedAt": "2026-09-29",
-        "topics": [
-          "a-soul",
-          "acfun",
-          "bilibili",
-          "china",
-          "gege-circle",
-          "message-board",
-          "vtuber",
-          "vup"
-        ]
-      },
-      {
-        "rank": 17,
-        "fullName": "intuitem/ciso-assistant-community",
-        "url": "https://github.com/intuitem/ciso-assistant-community",
-        "description": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting. It supports 200+ global frameworks with automatic control mapping, including ISO 27001, NIST CSF, SOC 2, CIS, PCI DSS, NIS2, DORA, GDPR, HIPAA, CMMC, and more.",
-        "businessSummary": "适合法务合规场景里的合同分析、隐私合规、审计和风险管理。",
-        "categoryIds": [
-          "legal",
-          "ai",
-          "developer",
-          "finance",
-          "design",
-          "ops"
-        ],
-        "language": "Python",
-        "stars": 4466,
+        "stars": 2391,
         "periodStars": 4,
-        "updatedAt": "2026-09-28",
+        "updatedAt": "2026-09-30",
         "topics": [
-          "audit",
-          "automation",
-          "bsi",
-          "cis",
-          "compliance",
-          "cybersecurity",
-          "dora",
-          "ebios-rm",
-          "gdpr",
-          "grc",
-          "isms",
-          "iso27001",
-          "llm",
-          "mcp",
-          "nis2",
-          "nist",
-          "quantification",
-          "risk-management",
-          "security",
-          "soc2"
-        ]
-      },
-      {
-        "rank": 18,
-        "fullName": "InvoicePlane/InvoicePlane",
-        "url": "https://github.com/InvoicePlane/InvoicePlane",
-        "description": "A self-hosted open source application for managing your invoices, clients and payments.",
-        "businessSummary": "适合财务金融场景里的账单、支付、风控、投资组合或经营数据分析。",
-        "categoryIds": [
-          "finance",
-          "developer",
-          "marketing"
-        ],
-        "language": "PHP",
-        "stars": 3146,
-        "periodStars": 4,
-        "updatedAt": "2026-09-29",
-        "topics": [
-          "billing",
-          "codeigniter",
-          "crm",
-          "invoiceplane",
-          "invoices",
-          "invoicing",
-          "open-source",
-          "php"
+          "agent-skills",
+          "best-practices",
+          "claude-code",
+          "claude-skills",
+          "devops",
+          "infrastructure-as-code",
+          "modules",
+          "opentofu",
+          "terraform",
+          "testing"
         ]
       },
       {
@@ -659,13 +653,44 @@
           "developer"
         ],
         "language": "Python",
-        "stars": 1760,
+        "stars": 1764,
         "periodStars": 4,
-        "updatedAt": "2026-09-28",
+        "updatedAt": "2026-09-29",
         "topics": []
       },
       {
         "rank": 20,
+        "fullName": "raga-ai-hub/RagaAI-Catalyst",
+        "url": "https://github.com/raga-ai-hub/RagaAI-Catalyst",
+        "description": "Python SDK for Agent AI Observability, Monitoring and Evaluation Framework. Includes features like agent, llm and tools tracing, debugging multi-agentic system, self-hosted dashboard and advanced analytics with timeline and execution graph view",
+        "businessSummary": "适合构建 AI 应用、模型工作流、RAG、Agent 或 LLM 评测监控。",
+        "categoryIds": [
+          "ai",
+          "developer",
+          "pr",
+          "ops"
+        ],
+        "language": "Python",
+        "stars": 16169,
+        "periodStars": 3,
+        "updatedAt": "2026-09-30",
+        "topics": [
+          "agentic-ai",
+          "agentic-ai-development",
+          "agentneo",
+          "agents",
+          "ai-agent-monitoring",
+          "ai-application-debugging",
+          "ai-evaluation-tools",
+          "ai-performance-optimization",
+          "ai-tool-interaction-monitoring",
+          "llm-testing",
+          "llm-tracing",
+          "llmops"
+        ]
+      },
+      {
+        "rank": 21,
         "fullName": "dataelement/bisheng",
         "url": "https://github.com/dataelement/bisheng",
         "description": "BISHENG is an open LLM devops platform for next generation Enterprise AI applications. Powerful and comprehensive features include: GenAI workflow, RAG, Agent, Unified model management, Evaluation, SFT, Dataset Management, Enterprise-level System Management, Observability and more.",
@@ -677,9 +702,9 @@
           "ops"
         ],
         "language": "Python",
-        "stars": 12014,
+        "stars": 12017,
         "periodStars": 3,
-        "updatedAt": "2026-09-28",
+        "updatedAt": "2026-09-30",
         "topics": [
           "agent",
           "ai",
@@ -704,38 +729,61 @@
         ]
       },
       {
-        "rank": 21,
-        "fullName": "fujibee/agmsg",
-        "url": "https://github.com/fujibee/agmsg",
-        "description": "Cross-vendor messaging for CLI AI coding agents — let Claude Code, Codex, Gemini & Copilot talk to each other in one team. Bash + SQLite, no daemon, no framework.",
+        "rank": 22,
+        "fullName": "reviewdog/reviewdog",
+        "url": "https://github.com/reviewdog/reviewdog",
+        "description": "🐶 Automated code review tool integrated with any code analysis tools regardless of programming language",
         "businessSummary": "适合程序员提升开发、测试、部署、代码质量或工程协作效率。",
         "categoryIds": [
-          "developer",
-          "ai"
+          "developer"
         ],
-        "language": "Shell",
-        "stars": 1526,
+        "language": "Go",
+        "stars": 9632,
         "periodStars": 3,
-        "updatedAt": "2026-09-29",
+        "updatedAt": "2026-09-30",
         "topics": [
-          "agent-communication",
-          "agent-teams",
-          "agentic",
-          "ai-agents",
-          "bash",
-          "claude-code",
+          "bitbucket",
+          "ci",
           "cli",
-          "codex",
-          "copilot",
-          "developer-tools",
-          "gemini-cli",
-          "inter-agent",
-          "multi-agent",
-          "sqlite"
+          "code-quality",
+          "code-review",
+          "codereview",
+          "github",
+          "gitlab",
+          "go",
+          "lint",
+          "linter",
+          "static-analysis",
+          "static-code-analysis"
         ]
       },
       {
-        "rank": 22,
+        "rank": 23,
+        "fullName": "gege-circle/.github",
+        "url": "https://github.com/gege-circle/.github",
+        "description": "这里是GitHub的草场，也是戈戈圈爱好者的交流地，主要讨论动漫、游戏、科技、人文、生活等所有话题，欢迎各位小伙伴们在此讨论趣事。This is GitHub grassland, and the community place for Gege circle lovers, mainly discusses anime, games, technology, lifing and other topics. You are welcome to share interest things here. 缺氧修改器 捏脸 反光板 MySQL数据库 玉米杂草数据集 销售系统开发 疫情期间网民情绪识别比赛 996icu 预测结果导出 赖伟林刺杀小说家 购物商场 英语词汇量小程序 联级选择器Bitcoin区块链 技术面",
+        "businessSummary": "适合程序员提升开发、测试、部署、代码质量或工程协作效率。",
+        "categoryIds": [
+          "developer",
+          "social"
+        ],
+        "language": "Unknown",
+        "stars": 2031,
+        "periodStars": 2,
+        "updatedAt": "2026-09-29",
+        "topics": [
+          "a-soul",
+          "acfun",
+          "bilibili",
+          "china",
+          "gege-circle",
+          "message-board",
+          "vtuber",
+          "vup"
+        ]
+      },
+      {
+        "rank": 24,
         "fullName": "indranilbanerjee/digital-marketing-pro",
         "url": "https://github.com/indranilbanerjee/digital-marketing-pro",
         "description": "An open-source AI marketing operating system for strategy, SEO, AEO/GEO, paid media, content, CRM, and analytics - grounded in brand context, human approval, and verifiable outputs.",
@@ -748,9 +796,9 @@
           "ops"
         ],
         "language": "Python",
-        "stars": 840,
-        "periodStars": 3,
-        "updatedAt": "2026-09-28",
+        "stars": 842,
+        "periodStars": 2,
+        "updatedAt": "2026-09-29",
         "topics": [
           "aeo",
           "agent-skills",
@@ -773,71 +821,6 @@
           "openclaw-plugin",
           "seo"
         ]
-      },
-      {
-        "rank": 23,
-        "fullName": "qeeqbox/social-analyzer",
-        "url": "https://github.com/qeeqbox/social-analyzer",
-        "description": "API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \\ websites",
-        "businessSummary": "适合社媒平台内容生产、账号运营、发布管理、数据分析或趋势追踪。",
-        "categoryIds": [
-          "social",
-          "developer",
-          "pr"
-        ],
-        "language": "JavaScript",
-        "stars": 24138,
-        "periodStars": 2,
-        "updatedAt": "2026-09-29",
-        "topics": [
-          "analysis",
-          "analyzer",
-          "cli",
-          "information-gathering",
-          "javascript",
-          "nodejs",
-          "nodejs-cli",
-          "osint",
-          "pentest",
-          "pentesting",
-          "person-profile",
-          "profile",
-          "python",
-          "reconnaissance",
-          "security-tools",
-          "social-analyzer",
-          "social-media",
-          "sosint",
-          "username"
-        ]
-      },
-      {
-        "rank": 24,
-        "fullName": "palantir/blueprint",
-        "url": "https://github.com/palantir/blueprint",
-        "description": "A React-based UI toolkit for the web",
-        "businessSummary": "适合设计创意团队做 UI、视觉、视频、图片、3D 或动效生产。",
-        "categoryIds": [
-          "design"
-        ],
-        "language": "TypeScript",
-        "stars": 22104,
-        "periodStars": 2,
-        "updatedAt": "2026-09-29",
-        "topics": [
-          "blueprint",
-          "components",
-          "design",
-          "lerna",
-          "octo-correct-managed",
-          "react",
-          "sass",
-          "system",
-          "table",
-          "toolkit",
-          "typescript",
-          "ui"
-        ]
       }
     ],
     "monthly": [
@@ -853,9 +836,9 @@
           "developer"
         ],
         "language": "JavaScript",
-        "stars": 51833,
-        "periodStars": 5746,
-        "updatedAt": "2026-09-29",
+        "stars": 51947,
+        "periodStars": 5741,
+        "updatedAt": "2026-09-30",
         "topics": [
           "claude",
           "codex",
@@ -872,9 +855,9 @@
           "ai"
         ],
         "language": "Python",
-        "stars": 140114,
-        "periodStars": 4939,
-        "updatedAt": "2026-09-29",
+        "stars": 140265,
+        "periodStars": 4943,
+        "updatedAt": "2026-09-30",
         "topics": [
           "agents",
           "llms",
@@ -895,9 +878,9 @@
           "ops"
         ],
         "language": "TypeScript",
-        "stars": 157446,
-        "periodStars": 3588,
-        "updatedAt": "2026-09-29",
+        "stars": 157545,
+        "periodStars": 3603,
+        "updatedAt": "2026-09-30",
         "topics": [
           "agent",
           "agentic-ai",
@@ -933,9 +916,9 @@
           "pr"
         ],
         "language": "Python",
-        "stars": 63141,
-        "periodStars": 2901,
-        "updatedAt": "2026-09-29",
+        "stars": 63215,
+        "periodStars": 2602,
+        "updatedAt": "2026-09-30",
         "topics": [
           "ai-prompts",
           "ai-skill",
@@ -970,9 +953,9 @@
           "developer"
         ],
         "language": "Python",
-        "stars": 147222,
-        "periodStars": 1962,
-        "updatedAt": "2026-09-29",
+        "stars": 147292,
+        "periodStars": 1982,
+        "updatedAt": "2026-09-30",
         "topics": [
           "agents",
           "ai",
@@ -1007,9 +990,9 @@
           "marketing"
         ],
         "language": "Go",
-        "stars": 91455,
-        "periodStars": 1850,
-        "updatedAt": "2026-09-29",
+        "stars": 91519,
+        "periodStars": 1825,
+        "updatedAt": "2026-09-30",
         "topics": [
           "agent-harness",
           "agentic-ai",
@@ -1039,9 +1022,9 @@
           "design"
         ],
         "language": "Svelte",
-        "stars": 43896,
-        "periodStars": 1434,
-        "updatedAt": "2026-09-29",
+        "stars": 43928,
+        "periodStars": 1442,
+        "updatedAt": "2026-09-30",
         "topics": [
           "collaboration",
           "downloader",
@@ -1075,9 +1058,9 @@
           "ops"
         ],
         "language": "TypeScript",
-        "stars": 35171,
-        "periodStars": 1257,
-        "updatedAt": "2026-09-29",
+        "stars": 35216,
+        "periodStars": 1261,
+        "updatedAt": "2026-09-30",
         "topics": [
           "analytics",
           "autogen",
@@ -1113,9 +1096,9 @@
           "ops"
         ],
         "language": "Python",
-        "stars": 31832,
-        "periodStars": 829,
-        "updatedAt": "2026-09-29",
+        "stars": 31864,
+        "periodStars": 841,
+        "updatedAt": "2026-09-30",
         "topics": [
           "ai-coding",
           "claude",
@@ -1143,9 +1126,9 @@
           "ops"
         ],
         "language": "Python",
-        "stars": 28173,
-        "periodStars": 442,
-        "updatedAt": "2026-09-29",
+        "stars": 28191,
+        "periodStars": 450,
+        "updatedAt": "2026-09-30",
         "topics": [
           "agentops",
           "agents",
@@ -1169,6 +1152,31 @@
       },
       {
         "rank": 11,
+        "fullName": "mui/base-ui",
+        "url": "https://github.com/mui/base-ui",
+        "description": "Unstyled UI components for building accessible web apps and design systems. From the creators of Radix, Floating UI, and Material UI.",
+        "businessSummary": "适合设计创意团队做 UI、视觉、视频、图片、3D 或动效生产。",
+        "categoryIds": [
+          "design",
+          "ai"
+        ],
+        "language": "TypeScript",
+        "stars": 11038,
+        "periodStars": 268,
+        "updatedAt": "2026-09-30",
+        "topics": [
+          "accessibility",
+          "base-ui",
+          "components",
+          "design-system",
+          "react",
+          "react-components",
+          "ui",
+          "wai-aria"
+        ]
+      },
+      {
+        "rank": 12,
         "fullName": "deepset-ai/haystack",
         "url": "https://github.com/deepset-ai/haystack",
         "description": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
@@ -1180,9 +1188,9 @@
           "ops"
         ],
         "language": "Python",
-        "stars": 26627,
-        "periodStars": 265,
-        "updatedAt": "2026-09-29",
+        "stars": 26632,
+        "periodStars": 266,
+        "updatedAt": "2026-09-30",
         "topics": [
           "agent-framework",
           "agentic-ai",
@@ -1207,31 +1215,6 @@
         ]
       },
       {
-        "rank": 12,
-        "fullName": "mui/base-ui",
-        "url": "https://github.com/mui/base-ui",
-        "description": "Unstyled UI components for building accessible web apps and design systems. From the creators of Radix, Floating UI, and Material UI.",
-        "businessSummary": "适合设计创意团队做 UI、视觉、视频、图片、3D 或动效生产。",
-        "categoryIds": [
-          "design",
-          "ai"
-        ],
-        "language": "TypeScript",
-        "stars": 11022,
-        "periodStars": 259,
-        "updatedAt": "2026-09-29",
-        "topics": [
-          "accessibility",
-          "base-ui",
-          "components",
-          "design-system",
-          "react",
-          "react-components",
-          "ui",
-          "wai-aria"
-        ]
-      },
-      {
         "rank": 13,
         "fullName": "qeeqbox/social-analyzer",
         "url": "https://github.com/qeeqbox/social-analyzer",
@@ -1243,9 +1226,9 @@
           "pr"
         ],
         "language": "JavaScript",
-        "stars": 24138,
-        "periodStars": 250,
-        "updatedAt": "2026-09-29",
+        "stars": 24150,
+        "periodStars": 256,
+        "updatedAt": "2026-09-30",
         "topics": [
           "analysis",
           "analyzer",
@@ -1280,9 +1263,9 @@
           "design"
         ],
         "language": "Python",
-        "stars": 18522,
-        "periodStars": 164,
-        "updatedAt": "2026-09-29",
+        "stars": 18527,
+        "periodStars": 165,
+        "updatedAt": "2026-09-30",
         "topics": [
           "asr",
           "deeplearning",
@@ -1306,8 +1289,8 @@
           "design"
         ],
         "language": "TypeScript",
-        "stars": 19345,
-        "periodStars": 123,
+        "stars": 19349,
+        "periodStars": 126,
         "updatedAt": "2026-09-29",
         "topics": [
           "accessibility",
@@ -1334,9 +1317,9 @@
           "ops"
         ],
         "language": "Python",
-        "stars": 12014,
-        "periodStars": 97,
-        "updatedAt": "2026-09-28",
+        "stars": 12017,
+        "periodStars": 99,
+        "updatedAt": "2026-09-30",
         "topics": [
           "agent",
           "ai",
@@ -1362,6 +1345,34 @@
       },
       {
         "rank": 17,
+        "fullName": "palantir/blueprint",
+        "url": "https://github.com/palantir/blueprint",
+        "description": "A React-based UI toolkit for the web",
+        "businessSummary": "适合设计创意团队做 UI、视觉、视频、图片、3D 或动效生产。",
+        "categoryIds": [
+          "design"
+        ],
+        "language": "TypeScript",
+        "stars": 22103,
+        "periodStars": 83,
+        "updatedAt": "2026-09-30",
+        "topics": [
+          "blueprint",
+          "components",
+          "design",
+          "lerna",
+          "octo-correct-managed",
+          "react",
+          "sass",
+          "system",
+          "table",
+          "toolkit",
+          "typescript",
+          "ui"
+        ]
+      },
+      {
+        "rank": 18,
         "fullName": "intuitem/ciso-assistant-community",
         "url": "https://github.com/intuitem/ciso-assistant-community",
         "description": "CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting. It supports 200+ global frameworks with automatic control mapping, including ISO 27001, NIST CSF, SOC 2, CIS, PCI DSS, NIS2, DORA, GDPR, HIPAA, CMMC, and more.",
@@ -1375,9 +1386,9 @@
           "ops"
         ],
         "language": "Python",
-        "stars": 4466,
-        "periodStars": 85,
-        "updatedAt": "2026-09-28",
+        "stars": 4465,
+        "periodStars": 81,
+        "updatedAt": "2026-09-29",
         "topics": [
           "audit",
           "automation",
@@ -1402,34 +1413,6 @@
         ]
       },
       {
-        "rank": 18,
-        "fullName": "palantir/blueprint",
-        "url": "https://github.com/palantir/blueprint",
-        "description": "A React-based UI toolkit for the web",
-        "businessSummary": "适合设计创意团队做 UI、视觉、视频、图片、3D 或动效生产。",
-        "categoryIds": [
-          "design"
-        ],
-        "language": "TypeScript",
-        "stars": 22104,
-        "periodStars": 84,
-        "updatedAt": "2026-09-29",
-        "topics": [
-          "blueprint",
-          "components",
-          "design",
-          "lerna",
-          "octo-correct-managed",
-          "react",
-          "sass",
-          "system",
-          "table",
-          "toolkit",
-          "typescript",
-          "ui"
-        ]
-      },
-      {
         "rank": 19,
         "fullName": "reviewdog/reviewdog",
         "url": "https://github.com/reviewdog/reviewdog",
@@ -1439,9 +1422,9 @@
           "developer"
         ],
         "language": "Go",
-        "stars": 9629,
-        "periodStars": 77,
-        "updatedAt": "2026-09-29",
+        "stars": 9632,
+        "periodStars": 79,
+        "updatedAt": "2026-09-30",
         "topics": [
           "bitbucket",
           "ci",
@@ -1469,9 +1452,9 @@
           "ai"
         ],
         "language": "Unknown",
-        "stars": 2387,
-        "periodStars": 73,
-        "updatedAt": "2026-09-27",
+        "stars": 2391,
+        "periodStars": 75,
+        "updatedAt": "2026-09-30",
         "topics": [
           "agent-skills",
           "best-practices",
@@ -1499,9 +1482,9 @@
           "ops"
         ],
         "language": "Python",
-        "stars": 840,
-        "periodStars": 64,
-        "updatedAt": "2026-09-28",
+        "stars": 842,
+        "periodStars": 65,
+        "updatedAt": "2026-09-29",
         "topics": [
           "aeo",
           "agent-skills",
@@ -1537,8 +1520,8 @@
           "design"
         ],
         "language": "Python",
-        "stars": 8869,
-        "periodStars": 56,
+        "stars": 8870,
+        "periodStars": 57,
         "updatedAt": "2026-09-29",
         "topics": [
           "ai-inference",
@@ -1569,9 +1552,9 @@
           "ai"
         ],
         "language": "Shell",
-        "stars": 1526,
-        "periodStars": 56,
-        "updatedAt": "2026-09-29",
+        "stars": 1527,
+        "periodStars": 57,
+        "updatedAt": "2026-09-30",
         "topics": [
           "agent-communication",
           "agent-teams",
@@ -1601,9 +1584,9 @@
           "developer"
         ],
         "language": "Python",
-        "stars": 1760,
-        "periodStars": 48,
-        "updatedAt": "2026-09-28",
+        "stars": 1764,
+        "periodStars": 53,
+        "updatedAt": "2026-09-29",
         "topics": []
       }
     ],
@@ -1621,9 +1604,9 @@
           "ops"
         ],
         "language": "TypeScript",
-        "stars": 157446,
-        "periodStars": 157446,
-        "updatedAt": "2026-09-29",
+        "stars": 157545,
+        "periodStars": 157545,
+        "updatedAt": "2026-09-30",
         "topics": [
           "agent",
           "agentic-ai",
@@ -1657,9 +1640,9 @@
           "developer"
         ],
         "language": "Python",
-        "stars": 147222,
-        "periodStars": 147222,
-        "updatedAt": "2026-09-29",
+        "stars": 147292,
+        "periodStars": 147292,
+        "updatedAt": "2026-09-30",
         "topics": [
           "agents",
           "ai",
@@ -1693,9 +1676,9 @@
           "ai"
         ],
         "language": "Python",
-        "stars": 140114,
-        "periodStars": 140114,
-        "updatedAt": "2026-09-29",
+        "stars": 140265,
+        "periodStars": 140265,
+        "updatedAt": "2026-09-30",
         "topics": [
           "agents",
           "llms",
@@ -1714,9 +1697,9 @@
           "marketing"
         ],
         "language": "Go",
-        "stars": 91455,
-        "periodStars": 91455,
-        "updatedAt": "2026-09-29",
+        "stars": 91519,
+        "periodStars": 91519,
+        "updatedAt": "2026-09-30",
         "topics": [
           "agent-harness",
           "agentic-ai",
@@ -1748,9 +1731,9 @@
           "pr"
         ],
         "language": "Python",
-        "stars": 63141,
-        "periodStars": 63141,
-        "updatedAt": "2026-09-29",
+        "stars": 63215,
+        "periodStars": 63215,
+        "updatedAt": "2026-09-30",
         "topics": [
           "ai-prompts",
           "ai-skill",
@@ -1786,9 +1769,9 @@
           "developer"
         ],
         "language": "JavaScript",
-        "stars": 51833,
-        "periodStars": 51833,
-        "updatedAt": "2026-09-29",
+        "stars": 51947,
+        "periodStars": 51947,
+        "updatedAt": "2026-09-30",
         "topics": [
           "claude",
           "codex",
@@ -1806,9 +1789,9 @@
           "design"
         ],
         "language": "Svelte",
-        "stars": 43896,
-        "periodStars": 43896,
-        "updatedAt": "2026-09-29",
+        "stars": 43928,
+        "periodStars": 43928,
+        "updatedAt": "2026-09-30",
         "topics": [
           "collaboration",
           "downloader",
@@ -1842,9 +1825,9 @@
           "ops"
         ],
         "language": "TypeScript",
-        "stars": 35171,
-        "periodStars": 35171,
-        "updatedAt": "2026-09-29",
+        "stars": 35216,
+        "periodStars": 35216,
+        "updatedAt": "2026-09-30",
         "topics": [
           "analytics",
           "autogen",
@@ -1880,9 +1863,9 @@
           "ops"
         ],
         "language": "Python",
-        "stars": 31832,
-        "periodStars": 31832,
-        "updatedAt": "2026-09-29",
+        "stars": 31864,
+        "periodStars": 31864,
+        "updatedAt": "2026-09-30",
         "topics": [
           "ai-coding",
           "claude",
@@ -1913,7 +1896,7 @@
         "language": "TypeScript",
         "stars": 29360,
         "periodStars": 29360,
-        "updatedAt": "2026-09-29",
+        "updatedAt": "2026-09-30",
         "topics": [
           "blockchain",
           "crypto",
@@ -1944,9 +1927,9 @@
           "ops"
         ],
         "language": "Python",
-        "stars": 28173,
-        "periodStars": 28173,
-        "updatedAt": "2026-09-29",
+        "stars": 28191,
+        "periodStars": 28191,
+        "updatedAt": "2026-09-30",
         "topics": [
           "agentops",
           "agents",
@@ -1981,9 +1964,9 @@
           "ops"
         ],
         "language": "Python",
-        "stars": 26627,
-        "periodStars": 26627,
-        "updatedAt": "2026-09-29",
+        "stars": 26632,
+        "periodStars": 26632,
+        "updatedAt": "2026-09-30",
         "topics": [
           "agent-framework",
           "agentic-ai",
@@ -2019,9 +2002,9 @@
           "pr"
         ],
         "language": "JavaScript",
-        "stars": 24138,
-        "periodStars": 24138,
-        "updatedAt": "2026-09-29",
+        "stars": 24150,
+        "periodStars": 24150,
+        "updatedAt": "2026-09-30",
         "topics": [
           "analysis",
           "analyzer",
@@ -2054,9 +2037,9 @@
           "design"
         ],
         "language": "TypeScript",
-        "stars": 22104,
-        "periodStars": 22104,
-        "updatedAt": "2026-09-29",
+        "stars": 22103,
+        "periodStars": 22103,
+        "updatedAt": "2026-09-30",
         "topics": [
           "blueprint",
           "components",
@@ -2121,8 +2104,8 @@
           "design"
         ],
         "language": "TypeScript",
-        "stars": 19345,
-        "periodStars": 19345,
+        "stars": 19349,
+        "periodStars": 19349,
         "updatedAt": "2026-09-29",
         "topics": [
           "accessibility",
@@ -2148,9 +2131,9 @@
           "design"
         ],
         "language": "Python",
-        "stars": 18522,
-        "periodStars": 18522,
-        "updatedAt": "2026-09-29",
+        "stars": 18527,
+        "periodStars": 18527,
+        "updatedAt": "2026-09-30",
         "topics": [
           "asr",
           "deeplearning",
@@ -2176,9 +2159,9 @@
           "ops"
         ],
         "language": "TypeScript",
-        "stars": 16175,
-        "periodStars": 16175,
-        "updatedAt": "2026-09-29",
+        "stars": 16255,
+        "periodStars": 16255,
+        "updatedAt": "2026-09-30",
         "topics": [
           "ai",
           "ai-agents",
@@ -2213,9 +2196,9 @@
           "ops"
         ],
         "language": "Python",
-        "stars": 16166,
-        "periodStars": 16166,
-        "updatedAt": "2026-09-29",
+        "stars": 16169,
+        "periodStars": 16169,
+        "updatedAt": "2026-09-30",
         "topics": [
           "agentic-ai",
           "agentic-ai-development",
@@ -2244,9 +2227,9 @@
           "ops"
         ],
         "language": "Python",
-        "stars": 12014,
-        "periodStars": 12014,
-        "updatedAt": "2026-09-28",
+        "stars": 12017,
+        "periodStars": 12017,
+        "updatedAt": "2026-09-30",
         "topics": [
           "agent",
           "ai",
@@ -2281,9 +2264,9 @@
           "ai"
         ],
         "language": "TypeScript",
-        "stars": 11022,
-        "periodStars": 11022,
-        "updatedAt": "2026-09-29",
+        "stars": 11038,
+        "periodStars": 11038,
+        "updatedAt": "2026-09-30",
         "topics": [
           "accessibility",
           "base-ui",
@@ -2305,9 +2288,9 @@
           "design"
         ],
         "language": "TypeScript",
-        "stars": 10664,
-        "periodStars": 10664,
-        "updatedAt": "2026-09-28",
+        "stars": 10663,
+        "periodStars": 10663,
+        "updatedAt": "2026-09-29",
         "topics": [
           "design-system",
           "eva-design-system",
@@ -2329,9 +2312,9 @@
           "developer"
         ],
         "language": "Go",
-        "stars": 9629,
-        "periodStars": 9629,
-        "updatedAt": "2026-09-29",
+        "stars": 9632,
+        "periodStars": 9632,
+        "updatedAt": "2026-09-30",
         "topics": [
           "bitbucket",
           "ci",
@@ -2360,8 +2343,8 @@
           "design"
         ],
         "language": "Python",
-        "stars": 8869,
-        "periodStars": 8869,
+        "stars": 8870,
+        "periodStars": 8870,
         "updatedAt": "2026-09-29",
         "topics": [
           "ai-inference",
